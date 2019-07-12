@@ -9,7 +9,7 @@
 
 body{
     background-color:#c1c3c7;
-    margin: 30px;
+    margin: 0px;
     border-color: #c3c3c3;
 }
 
@@ -32,8 +32,8 @@ body{
 }
 .menu .topMenu {
     text-align: right;
-    font-family: Muli;
-    font-size: 15px;
+    font-family: 'Muli';
+    font-size: 18px;
     
 
 }
