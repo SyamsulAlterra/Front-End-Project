@@ -76,12 +76,50 @@
     color: #ff0000;
 }
 
-@media(max-width: 992px) {
+@media(max-width: 991px) {
     .background-image {
         width: 100%; 
         padding: 0;
         margin: 0;
+        margin-top: 15px;
+        height: 434px;
+        background-size: contain;
+    }
+
+    .box-color {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 434px;
+    }
+
+    .logo {
+        width: 100%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .contact{
+        margin: 20px auto;
+    }
+
+    .logo img{
+        margin: 140px 24px;
+    }
+
+    .form-layout, .nationality-layout, .message-layout {
+        width: 100%;
+    }
+}
+
+@media(max-width: 767px) {
+    .background-image {
+        width: 100%; 
+        padding: 0;
+        margin: 0;
+        margin-top: 10px;
         height: 350px;
+        background-size: cover;
     }
 
     .box-color {
@@ -94,16 +132,18 @@
     .logo {
         width: 100%;
         padding: 0;
-        margin: 0 auto;
+        margin: 0;
     }
 
     .contact{
-        margin: 30px 0px;
+        margin: 30px auto;
     }
 
     .logo img{
-        margin: 85px 55px;
-        /* margin-left: 20px; */
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 55px;
+        padding: 0;
     }
 
     .form-layout, .nationality-layout, .message-layout {

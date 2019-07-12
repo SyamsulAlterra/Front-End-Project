@@ -13,6 +13,10 @@ header {
     margin: 0;
 }
 
+.header-nav .page-now {
+    color: #f47522;
+}
+
 .header-nav a {
     padding: 15px;
     color: #19345E;
@@ -70,19 +74,73 @@ h3 {
     border-radius: 20px;
 }
 
-@media(max-width: 992px){
+@media(max-width: 991px){
     .profile-pic img {
-        padding: 15%;
-        margin: 0 auto;
+        padding: 0;
+        margin: 100px 20px;
     }
 
     .introduce {
-        margin: 0 auto;
-        padding: 10% 0;
+        margin: 0 50px;
+        margin-top: 120px;
+        padding: 0;
+        min-height: 1025px;
+    }
+
+    .introduce h5 {
+        font-size: 25px;
+    }
+
+    .introduce h1 {
+        font-size: 45px;
+    }
+
+    .introduce h3 {
+        font-size: 30px;
     }
 
     .header-nav a {
         padding: 0;
-        margin: 10px 10px;
+        margin: 10px 5px;
+    }
+
+    .btn {
+        margin: 0;
+    }
+}
+
+@media(max-width: 767px){
+    .profile-pic img {
+        padding: 20%;
+        margin: 0 auto;
+    }
+
+    .introduce {
+        margin: 0;
+        margin-top: 20px;
+        padding: 10% 0;
+        min-height: 348px;
+    }
+
+    .introduce h5 {
+        font-size: 22px;
+    }
+
+    .introduce h1 {
+        font-size: 40px;
+    }
+
+    .introduce h3 {
+        font-size: 26px;
+    }
+
+    .header-nav a {
+        padding: 0;
+        margin: 10px 5px;
+    }
+
+    .btn {
+        margin: 0;
+        margin-top: 20px;
     }
 }
