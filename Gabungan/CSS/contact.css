@@ -72,6 +72,11 @@
     width: 35%;
 }
 
+.btn a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .asterisk{
     color: #ff0000;
 }
