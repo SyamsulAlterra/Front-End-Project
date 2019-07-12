@@ -229,7 +229,8 @@ footer .footerImage img{
 }
 
 .historyElement:hover{
-    border: 2px solid #f47522;
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
+    /* border: 2px solid #f47522; */
 }
 
 .historyElement .description{
@@ -288,14 +289,4 @@ footer .footerImage img{
     .bungkusElement{
         padding-top: 43px;
     }
-
-    /* .menu{
-        margin: 0px;
-        height: 70px;
-    }
-    
-    .menu .topMenu{
-        padding-top: 20px;
-        font-size: 13px;
-    } */
 }
